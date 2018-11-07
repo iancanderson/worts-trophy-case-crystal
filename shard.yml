@@ -1,0 +1,26 @@
+name: worts_trophy_case_crystal
+version: 0.1.0
+
+authors:
+  - Ian C. Anderson <ian@iancanderson.com>
+
+targets:
+  worts_trophy_case_crystal:
+    main: src/worts_trophy_case_crystal.cr
+
+crystal: 0.27.0
+
+dependencies:
+  lucky:
+    github: luckyframework/lucky
+    version: ~> 0.12
+  authentic:
+    github: luckyframework/authentic
+    version: ~> 0.2
+  carbon:
+    github: luckyframework/carbon
+    version: ~> 0.1.0
+
+  lucky_flow:
+    github: luckyframework/lucky_flow
+    version: ~> 0.3
