@@ -11,7 +11,10 @@ abstract class MainLayout
 
       body do
         render_flash
-        content
+        div class: "container-md" do
+          h1 "Worts Trophy Case"
+          content
+        end
       end
     end
   end

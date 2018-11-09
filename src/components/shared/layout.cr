@@ -13,6 +13,8 @@ module Shared::Layout
       utf8_charset
       title "My App - #{page_title}"
       css_link asset("css/app.css"), data_turbolinks_track: "reload"
+      css_link "https://unpkg.com/primer/build/build.css"
+
       js_link asset("js/app.js"), defer: "true", data_turbolinks_track: "reload"
       csrf_meta_tags
       responsive_meta_tag
